@@ -11,11 +11,16 @@ export class CitySearchComponent {
   cities: any;
 
   constructor(private http: HttpClient) { }
-
+  
   onSubmit(cityName: string): void {
-    this.http.get(`api/cities?name=${cityName}`).subscribe(data => {
-      this.cities = data;
-      console.log(this.cities)
-    });
+    this.http.get(`http://localhost:3000/cities?name=${cityName}`).subscribe(
+      (data: any) => {
+        this.cities = data; 
+        console.log(this.cities);
+      },
+      (error: any) => {
+        console.error('Error fetching cities:', error);
+      }
+    );
   }
 }

@@ -1,36 +1,22 @@
-# Interview for Junior Full-Stack developer
+# Erento interview-junior-fullstack-developer
 
-Dear applicant,
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.7 and the goal of it was to create a simle system of a Search Engine.
 
-thank you again for applying for the Junior Full-Stack developer position at Erento. With the following task we would like to verify your coding skills. Expected timeline for this assignment is to be finished within a week.
+## Project Description
 
-Below you can find 2 folders. Both are just simple initial applications generated from respective CLI tools. The [`interview-frontend`](./interview-frontend) is an Angular 16 frontend application and the [`interview-backend`](./interview-backend) is a NestJS 10 backend application.
+The application has a form where you can search for a city and list the results in a list formatted below. That can be seen at `http://localhost:4200/`.
 
-As you can already spot, both are javascript applications, which is by far the most used language at Erento.
 
-## What should you do?
+## Setup Project
 
-1. On the frontend replace the existing content with a form where you can search for a city and list the results in some list formatted below.
-2. On the backend prepare an endpoint to return the list of the cities which is matching the entry submitted from the frontend. Ideally, you will return up to 5 entries per page.
+In the interview-backend terminal type `npm i -g @nestjs/cli`, `npm i --save-dev @nestjs/testing`, and `npm install` in the folder interview-frontend terminal type `npm install` and install in your browser the CORS unblock extension. 
 
-    In the root of this repository there is [cities.json](./cities.json) file - this should mock your database.
 
-## Tips
+## Running Project
 
-- You should make sure your code is functional.
-- You should also handle possible edge cases.
-- You should be happy with your solution.
-- Do you know how to test? This could be your chance to learn!
-- Any progress would be good to track over git commits.
+You can run the app by in the interview-backend terminal type `npm run start` and in the folder interview-frontend `ng serve --open`.
 
-## Are you done?
 
-You can give us the accomplished assignment in 2 ways of your choice:
-1. Create a fork of our repository and send us a link to your Github repository when you are finished, or
-2. Remove `node_modules` folder in both applications pack it into an archive and send it over an email.
+## Thoughts
 
-## Further help
-
-To get more help on:
-- Angular check out the [Angular docs](https://angular.io/docs) page
-- NestJS check out the [NestJS docs](https://docs.nestjs.com) page
+I did the tasks asked for but I would like to add a bit more functionalities in the app, but since I had to work with my father this last few days I didn't had to much time, but I'm happy with what I did. I hope when u look at the code u can see someone who reads the Docs and a person who tries stuff until its working, meaning that's my best skill and someone who works with me will see that and find that useful. I hope that's enough to go to the next phase, so for now thank you for the opportunity an I'll wait for the response.
