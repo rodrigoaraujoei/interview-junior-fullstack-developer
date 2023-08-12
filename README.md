@@ -1,10 +1,10 @@
 # Erento interview-junior-fullstack-developer
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.7 and the goal of it was to create a simle system of a Search Engine.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.7 and [NestJS](https://github.com/angular/angular-cli) and the goal of it was to create a simple system of a Search Engine.
 
 ## Project Description
 
-The application has a form where you can search for a city and list the results in a list formatted below. That can be seen at `http://localhost:4200/`.
+The application has a form where you can search for a city and list the results in a list formatted below meaning that will return the cities which is matching the entry submitted from the frontend form. It can return 5 entries per search. That can be seen at `http://localhost:4200/`.
 
 
 ## Setup Project
